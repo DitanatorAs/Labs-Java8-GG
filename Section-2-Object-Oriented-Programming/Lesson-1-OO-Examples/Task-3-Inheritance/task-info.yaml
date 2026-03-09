@@ -1,0 +1,113 @@
+type: edu
+files:
+- name: src/Flyer.java
+  visible: true
+  text: |
+    interface Flyer {
+        void fly();
+        void land();
+        void takeOff();
+    }
+  learner_created: false
+- name: src/Falcon.java
+  visible: true
+  placeholders:
+  - offset: 20
+    length: 9
+    placeholder_text: расширяет
+    initial_state:
+      length: 9
+      offset: 20
+    initialized_from_dependency: false
+    possible_answer: extends
+    selected: false
+    status: Unchecked
+  - offset: 42
+    length: 22
+    placeholder_text: переопределенный метод
+    initial_state:
+      length: 22
+      offset: 42
+    initialized_from_dependency: false
+    possible_answer: |-
+      @Override
+          public String getName() {
+              return "falcon";
+          }
+    selected: false
+    status: Unchecked
+  text: |
+    public class Falcon расширяет Bird {
+
+        переопределенный метод
+    }
+  learner_created: false
+- name: src/Bird.java
+  visible: true
+  text: |
+    public class Bird implements Flyer {
+
+        @Override
+        public void fly() {
+            System.out.println("bird flies");
+        }
+
+        @Override
+        public void land() {
+            System.out.println("bird lands");
+        }
+
+        @Override
+        public void takeOff() {
+            System.out.println("bird takes off");
+        }
+
+        public void eat() {
+            System.out.println("bird eats");
+        }
+
+        public String getName(){
+            return "just bird";
+        };
+
+    }
+  learner_created: false
+- name: test/FalconTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class FalconTest {
+
+        Falcon f = new Falcon();
+
+        @Test
+        public void fly() {
+            f.fly();
+        }
+
+        @Test
+        public void land() {
+            f.land();
+        }
+
+        @Test
+        public void takeOff() {
+            f.takeOff();
+        }
+
+        @Test
+        public void eat() {
+            f.eat();
+        }
+
+        @Test
+        public void getName() {
+            assertEquals("falcon".toLowerCase(), f.getName().toLowerCase());
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

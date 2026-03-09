@@ -1,0 +1,124 @@
+type: edu
+files:
+- name: src/Person.java
+  visible: true
+  text: |
+    public class Person {
+        private final int years;
+
+        public Person(int years) {
+            this.years = years;
+        }
+
+        public int getYears() {
+            return years;
+        }
+
+        public long getDays() {
+          return years * 365;
+        };
+
+        public long getHours() {
+            return years * 365 * 24;
+        }
+
+        public long getMinutes() {
+            return years * 365 * 24 * 60;
+        }
+
+        public long getSeconds() {
+            return years * 365 * 24 * 60 * 60;
+        }
+
+        public long getMilliSeconds() {
+            return years * 365 * 24 * 60 * 60 * 1000;
+        }
+
+    }
+  learner_created: false
+- name: test/PersonTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class PersonTest {
+
+        Person p = new Person(1);
+
+        @Test
+        public void getYears() {
+            assertEquals(1, p.getYears());
+        }
+
+        @Test
+        public void getDays() {
+            assertEquals(365, p.getDays());
+        }
+
+        @Test
+        public void getHours() {
+            assertEquals(365 * 24, p.getHours());
+        }
+
+        @Test
+        public void getMinuts() {
+            assertEquals(365 * 24 * 60, p.getMinutes());
+        }
+
+        @Test
+        public void getSeconds() {
+            assertEquals(31536000, p.getSeconds());
+        }
+
+        @Test
+        public void getMilliSeconds() {
+            assertEquals(31536000000L, p.getMilliSeconds());
+        }
+    }
+  learner_created: false
+- name: test/PersonTest100.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.assertEquals;
+
+    public class PersonTest100 {
+
+        Person p = new Person(100);
+
+        @Test
+        public void getYears() {
+            assertEquals(100, p.getYears());
+        }
+
+        @Test
+        public void getDays() {
+            assertEquals(365 * 100L, p.getDays());
+        }
+
+        @Test
+        public void getHours() {
+            assertEquals(365 * 100L * 24, p.getHours());
+        }
+
+        @Test
+        public void getMinuts() {
+            assertEquals(365 * 100L * 24 * 60, p.getMinutes());
+        }
+
+        @Test
+        public void getSeconds() {
+            assertEquals(3153600000L, p.getSeconds());
+        }
+
+        @Test
+        public void getMilliSeconds() {
+            assertEquals(3153600000000L, p.getMilliSeconds());
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

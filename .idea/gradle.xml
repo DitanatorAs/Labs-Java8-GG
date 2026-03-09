@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Section-1-Intro/Lesson-1-Java-Technology-And-IDEA/Task-1-How-To-Check" />
+            <option value="$PROJECT_DIR$/Section-1-Intro/Lesson-1-Java-Technology-And-IDEA/Task-2-Replace-Check" />
+            <option value="$PROJECT_DIR$/Section-1-Intro/Lesson-1-Java-Technology-And-IDEA/Task-3-Fix-Check" />
+            <option value="$PROJECT_DIR$/Section-1-Intro/Lesson-1-Java-Technology-And-IDEA/Task-4-Register-Please" />
+            <option value="$PROJECT_DIR$/Section-1-Intro/Lesson-1-Java-Technology-And-IDEA/Task-5-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-1-Generate-Get-Set" />
+            <option value="$PROJECT_DIR$/Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-2-Interfaces" />
+            <option value="$PROJECT_DIR$/Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-3-Inheritance" />
+            <option value="$PROJECT_DIR$/Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-4-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-3-Types-Operators/Lesson-1-Types/Task-1-Literals" />
+            <option value="$PROJECT_DIR$/Section-3-Types-Operators/Lesson-1-Types/Task-2-Cast" />
+            <option value="$PROJECT_DIR$/Section-3-Types-Operators/Lesson-1-Types/Task-3-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-4-Object-Instantiation/Lesson-1-Strings-Basic/Task-1-Strings" />
+            <option value="$PROJECT_DIR$/Section-4-Object-Instantiation/Lesson-1-Strings-Basic/Task-2-Anagram" />
+            <option value="$PROJECT_DIR$/Section-4-Object-Instantiation/Lesson-1-Strings-Basic/Task-3-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-5-Control-Flow/Lesson-1-If-else-switch/Task-1-If-Else" />
+            <option value="$PROJECT_DIR$/Section-5-Control-Flow/Lesson-1-If-else-switch/Task-2-Switch" />
+            <option value="$PROJECT_DIR$/Section-5-Control-Flow/Lesson-2-Loops/Task-1-While" />
+            <option value="$PROJECT_DIR$/Section-5-Control-Flow/Lesson-2-Loops/Task-2-For" />
+            <option value="$PROJECT_DIR$/Section-5-Control-Flow/Lesson-2-Loops/Task-3-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-1-Methods/Task-1-Store" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-1-Methods/Task-2-Overloaded-methods" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-2-Constructors-Incapsulation/Task-1-Date" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-2-Constructors-Incapsulation/Task-2-Rectangle" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-3-Arrays-of-Objects/Task-1-Vacation" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-3-Arrays-of-Objects/Task-2-Class-Map" />
+            <option value="$PROJECT_DIR$/Section-6-Methods-Constructors-Arrays/Lesson-3-Arrays-of-Objects/Task-3-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-7-Inheritance-Polymorfism/Lesson-1-Polymorfism/Task-1-Animals" />
+            <option value="$PROJECT_DIR$/Section-7-Inheritance-Polymorfism/Lesson-1-Polymorfism/Task-2-Vet" />
+            <option value="$PROJECT_DIR$/Section-7-Inheritance-Polymorfism/Lesson-1-Polymorfism/Task-3-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-8-Exceptions-IO/Lesson-1-Exceptions/Task-1-Throws-Throw" />
+            <option value="$PROJECT_DIR$/Section-8-Exceptions-IO/Lesson-1-Exceptions/Task-2-Zip-Answer" />
+            <option value="$PROJECT_DIR$/Section-9-Containers-And-Streams/Lesson-1-Containers/Task-1-Map-Set" />
+            <option value="$PROJECT_DIR$/Section-9-Containers-And-Streams/Lesson-1-Containers/Task-2-Map-List" />
+            <option value="$PROJECT_DIR$/Section-9-Containers-And-Streams/Lesson-1-Containers/Task-3-Zip-Answer" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

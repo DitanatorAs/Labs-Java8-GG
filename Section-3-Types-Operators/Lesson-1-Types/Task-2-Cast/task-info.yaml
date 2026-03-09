@@ -1,0 +1,54 @@
+type: edu
+files:
+- name: src/Order.java
+  visible: true
+  placeholders:
+  - offset: 239
+    length: 16
+    placeholder_text: возвращаемый_тип
+    initial_state:
+      length: 16
+      offset: 239
+    initialized_from_dependency: false
+    possible_answer: long
+    selected: true
+    status: Unchecked
+  text: |
+    public class Order {
+        private final int itemQuantity;
+        private final int itemPrice;
+
+        public Order(int itemQuantity, int itemPrice) {
+            this.itemQuantity = itemQuantity;
+            this.itemPrice = itemPrice;
+        }
+
+        public возвращаемый_тип getValue(){
+            return itemQuantity * itemPrice;
+        };
+    }
+  learner_created: false
+- name: test/OrderTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class OrderTest {
+
+        @Test
+        public void getBigValue() {
+            Order o = new Order(10000000, 555500);
+            assertEquals(5555000000000L, o.getValue());
+        }
+
+        @Test
+        public void getSmallValue() {
+            Order o = new Order(1000, 500);
+            assertEquals(500000L, o.getValue());
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

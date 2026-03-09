@@ -1,0 +1,31 @@
+type: edu
+files:
+- name: src/AnagramChecker.java
+  visible: true
+  text: |
+    public class AnagramChecker {
+        boolean isAnagram(String first, String second){
+            return false;
+        };
+    }
+  learner_created: false
+- name: test/AnagramCheckerTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class AnagramCheckerTest {
+
+        @Test
+        public void isAnagram() {
+            assertTrue(new AnagramChecker().isAnagram("software", "swear oft"));
+            assertFalse(new AnagramChecker().isAnagram("software", "swear oftt"));
+            assertFalse(new AnagramChecker().isAnagram("sss a", "s aaa"));
+            assertTrue(new AnagramChecker().isAnagram("sss aa ", "ss aa s"));
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

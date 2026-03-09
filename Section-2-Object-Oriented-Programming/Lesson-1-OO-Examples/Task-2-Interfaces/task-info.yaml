@@ -1,0 +1,102 @@
+type: edu
+files:
+- name: src/Flyer.java
+  visible: true
+  text: |
+    interface Flyer {
+        void fly();
+        void land();
+        void takeOff();
+    }
+  learner_created: false
+- name: src/Bird.java
+  visible: true
+  placeholders:
+  - offset: 18
+    length: 9
+    placeholder_text: реализует
+    initial_state:
+      length: 9
+      offset: 18
+    initialized_from_dependency: false
+    possible_answer: implements
+    selected: false
+    status: Unchecked
+  - offset: 40
+    length: 28
+    placeholder_text: методы реализующие интерфейс
+    initial_state:
+      length: 28
+      offset: 40
+    initialized_from_dependency: false
+    possible_answer: |2-
+       @Override
+          public void fly() {
+              System.out.println("bird flies");
+          }
+
+          @Override
+          public void land() {
+              System.out.println("bird lands");
+          }
+
+          @Override
+          public void takeOff() {
+              System.out.println("bird takes off");
+          }
+    selected: false
+    status: Unchecked
+  text: |
+    public class Bird реализует Flyer {
+
+       методы реализующие интерфейс
+
+        public void eat() {
+            System.out.println("bird eats");
+        }
+
+        public String getName(){
+            return "just bird";
+        };
+
+    }
+  learner_created: false
+- name: test/BirdTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class BirdTest {
+
+        Bird b = new Bird();
+
+        @Test
+        public void fly() {
+            b.fly();
+        }
+
+        @Test
+        public void land() {
+            b.land();
+        }
+
+        @Test
+        public void takeOff() {
+            b.takeOff();
+        }
+
+        @Test
+        public void eat() {
+            b.eat();
+        }
+
+        @Test
+        public void getName() {
+            assertEquals("just bird".toLowerCase(), b.getName().toLowerCase());
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

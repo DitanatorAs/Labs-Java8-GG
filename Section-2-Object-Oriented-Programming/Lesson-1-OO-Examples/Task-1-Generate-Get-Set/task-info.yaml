@@ -1,0 +1,74 @@
+type: edu
+files:
+- name: src/Bicycle.java
+  visible: true
+  placeholders:
+  - offset: 218
+    length: 0
+    placeholder_text: ""
+    initial_state:
+      length: 0
+      offset: 218
+    initialized_from_dependency: false
+    possible_answer: |-
+      public int getCadence() {
+              return cadence;
+          }
+
+          public void setCadence(int cadence) {
+              this.cadence = cadence;
+          }
+
+          public int getSpeed() {
+              return speed;
+          }
+
+          public void setSpeed(int speed) {
+              this.speed = speed;
+          }
+
+          public int getGear() {
+              return gear;
+          }
+
+          public void setGear(int gear) {
+              this.gear = gear;
+          }
+    selected: false
+    status: Unchecked
+  text: "public class Bicycle {\n    private int cadence = 0; // состояние – текущ\
+    ий шаг педалей\n    private int speed = 0; // состояние – текущая скорость дви\
+    жения\n    private int gear = 1; // состояние – текущая передача\n\n    \n}\n"
+  learner_created: false
+- name: test/BicycleTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class BicycleTest {
+
+        Bicycle b = new Bicycle();
+
+        @Test
+        public void getCadence() {
+            b.setCadence(56);
+            assertEquals(56, b.getCadence());
+        }
+
+        @Test
+        public void getSpeed() {
+            b.setSpeed(12);
+            assertEquals(12, b.getSpeed());
+        }
+
+        @Test
+        public void getGear() {
+            b.setGear(2);
+            assertEquals(2, b.getGear());
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

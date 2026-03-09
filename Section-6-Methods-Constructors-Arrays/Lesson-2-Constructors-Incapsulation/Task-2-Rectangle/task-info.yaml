@@ -1,0 +1,107 @@
+type: edu
+files:
+- name: src/Rectangle.java
+  visible: true
+  text: |
+    public abstract class Rectangle {
+        protected int width;
+        protected int height;
+
+        public Rectangle(int width, int height) {
+            this.width = width;
+            this.height = height;
+        }
+
+        public Rectangle() {
+            this(25, 10);
+        }
+
+        public abstract int getSquare();
+        public abstract String draw();
+
+        public int getWidth() {
+            return width;
+        }
+
+        public int getHeight() {
+            return height;
+        }
+    }
+  learner_created: false
+- name: src/RectangleFactory.java
+  visible: true
+  text: |
+    public abstract class RectangleFactory {
+        public abstract Rectangle getRectangle();
+        public abstract Rectangle getRectangle(int witdh, int height);
+    }
+  learner_created: false
+- name: test/RectangleFactoryImplTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class RectangleFactoryImplTest {
+
+        @Test
+        public void getRectangle() {
+            RectangleFactory factory = new RectangleFactoryImpl();
+            Rectangle r = factory.getRectangle();
+            assertEquals(25, r.getWidth());
+            assertEquals(10, r.getHeight());
+            assertEquals(250, r.getSquare());
+            assertEquals(
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n", r.draw()
+            );
+        }
+
+        @Test
+        public void getRectangle1() {
+            RectangleFactory factory = new RectangleFactoryImpl();
+            Rectangle r = factory.getRectangle(25, 10);
+            assertEquals(25, r.getWidth());
+            assertEquals(10, r.getHeight());
+            assertEquals(250, r.getSquare());
+            assertEquals(
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n" +
+                    "*************************\n", r.draw()
+            );
+        }
+
+        @Test
+        public void getRectangle2() {
+            RectangleFactoryImpl factory = new RectangleFactoryImpl();
+            Rectangle r = factory.getRectangle(5, 3);
+            assertEquals(5, r.getWidth());
+            assertEquals(3, r.getHeight());
+            assertEquals(15, r.getSquare());
+            assertEquals(
+                    "*****\n" +
+                    "*****\n" +
+                    "*****\n"
+                    , r.draw()
+            );
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

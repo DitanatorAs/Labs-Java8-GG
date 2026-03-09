@@ -1,0 +1,43 @@
+type: edu
+files:
+- name: src/ReplaceWorld.java
+  visible: true
+  placeholders:
+  - offset: 79
+    length: 4
+    placeholder_text: TODO
+    initial_state:
+      length: 4
+      offset: 79
+    initialized_from_dependency: false
+    possible_answer: '"Hello, World!"'
+    selected: false
+    status: Unchecked
+  text: |
+    public class ReplaceWorld {
+
+        public String replaceWorld() {
+            return TODO;
+        }
+    }
+  learner_created: false
+- name: test/ReplaceWorldTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class ReplaceWorldTest {
+
+
+        @Test
+        public void replaceCheck() {
+            assertEquals("Hello, World!", new ReplaceWorld().replaceWorld());
+        }
+
+
+    }
+  learner_created: false
+status: Unchecked
+record: -1

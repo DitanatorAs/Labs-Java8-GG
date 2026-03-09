@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-1-How-To-Check_main" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-1-How-To-Check_test" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-2-Replace-Check_main" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-2-Replace-Check_test" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-3-Fix-Check_main" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-3-Fix-Check_test" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-4-Register-Please_main" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-4-Register-Please_test" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-5-Zip-Answer_main" target="1.8" />
+      <module name="Section-1-Intro-Lesson-1-Java-Technology-And-IDEA-Task-5-Zip-Answer_test" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-1-Generate-Get-Set_main" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-1-Generate-Get-Set_test" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-2-Interfaces_main" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-2-Interfaces_test" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-3-Inheritance_main" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-3-Inheritance_test" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-4-Zip-Answer_main" target="1.8" />
+      <module name="Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-4-Zip-Answer_test" target="1.8" />
+      <module name="Section-3-Types-Operators-Lesson-1-Types-Task-1-Literals_main" target="1.8" />
+      <module name="Section-3-Types-Operators-Lesson-1-Types-Task-1-Literals_test" target="1.8" />
+      <module name="Section-3-Types-Operators-Lesson-1-Types-Task-2-Cast_main" target="1.8" />
+      <module name="Section-3-Types-Operators-Lesson-1-Types-Task-2-Cast_test" target="1.8" />
+      <module name="Section-3-Types-Operators-Lesson-1-Types-Task-3-Zip-Answer_main" target="1.8" />
+      <module name="Section-3-Types-Operators-Lesson-1-Types-Task-3-Zip-Answer_test" target="1.8" />
+      <module name="Section-4-Object-Instantiation-Lesson-1-Strings-Basic-Task-1-Strings_main" target="1.8" />
+      <module name="Section-4-Object-Instantiation-Lesson-1-Strings-Basic-Task-1-Strings_test" target="1.8" />
+      <module name="Section-4-Object-Instantiation-Lesson-1-Strings-Basic-Task-2-Anagram_main" target="1.8" />
+      <module name="Section-4-Object-Instantiation-Lesson-1-Strings-Basic-Task-2-Anagram_test" target="1.8" />
+      <module name="Section-4-Object-Instantiation-Lesson-1-Strings-Basic-Task-3-Zip-Answer_main" target="1.8" />
+      <module name="Section-4-Object-Instantiation-Lesson-1-Strings-Basic-Task-3-Zip-Answer_test" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-1-If-else-switch-Task-1-If-Else_main" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-1-If-else-switch-Task-1-If-Else_test" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-1-If-else-switch-Task-2-Switch_main" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-1-If-else-switch-Task-2-Switch_test" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-2-Loops-Task-1-While_main" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-2-Loops-Task-1-While_test" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-2-Loops-Task-2-For_main" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-2-Loops-Task-2-For_test" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-2-Loops-Task-3-Zip-Answer_main" target="1.8" />
+      <module name="Section-5-Control-Flow-Lesson-2-Loops-Task-3-Zip-Answer_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-1-Methods-Task-1-Store_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-1-Methods-Task-1-Store_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-1-Methods-Task-2-Overloaded-methods_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-1-Methods-Task-2-Overloaded-methods_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-2-Constructors-Incapsulation-Task-1-Date_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-2-Constructors-Incapsulation-Task-1-Date_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-2-Constructors-Incapsulation-Task-2-Rectangle_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-2-Constructors-Incapsulation-Task-2-Rectangle_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-3-Arrays-of-Objects-Task-1-Vacation_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-3-Arrays-of-Objects-Task-1-Vacation_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-3-Arrays-of-Objects-Task-2-Class-Map_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-3-Arrays-of-Objects-Task-2-Class-Map_test" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-3-Arrays-of-Objects-Task-3-Zip-Answer_main" target="1.8" />
+      <module name="Section-6-Methods-Constructors-Arrays-Lesson-3-Arrays-of-Objects-Task-3-Zip-Answer_test" target="1.8" />
+      <module name="Section-7-Inheritance-Polymorfism-Lesson-1-Polymorfism-Task-1-Animals_main" target="1.8" />
+      <module name="Section-7-Inheritance-Polymorfism-Lesson-1-Polymorfism-Task-1-Animals_test" target="1.8" />
+      <module name="Section-7-Inheritance-Polymorfism-Lesson-1-Polymorfism-Task-2-Vet_main" target="1.8" />
+      <module name="Section-7-Inheritance-Polymorfism-Lesson-1-Polymorfism-Task-2-Vet_test" target="1.8" />
+      <module name="Section-7-Inheritance-Polymorfism-Lesson-1-Polymorfism-Task-3-Zip-Answer_main" target="1.8" />
+      <module name="Section-7-Inheritance-Polymorfism-Lesson-1-Polymorfism-Task-3-Zip-Answer_test" target="1.8" />
+      <module name="Section-8-Exceptions-IO-Lesson-1-Exceptions-Task-1-Throws-Throw_main" target="1.8" />
+      <module name="Section-8-Exceptions-IO-Lesson-1-Exceptions-Task-1-Throws-Throw_test" target="1.8" />
+      <module name="Section-8-Exceptions-IO-Lesson-1-Exceptions-Task-2-Zip-Answer_main" target="1.8" />
+      <module name="Section-8-Exceptions-IO-Lesson-1-Exceptions-Task-2-Zip-Answer_test" target="1.8" />
+      <module name="Section-9-Containers-And-Streams-Lesson-1-Containers-Task-1-Map-Set_main" target="1.8" />
+      <module name="Section-9-Containers-And-Streams-Lesson-1-Containers-Task-1-Map-Set_test" target="1.8" />
+      <module name="Section-9-Containers-And-Streams-Lesson-1-Containers-Task-2-Map-List_main" target="1.8" />
+      <module name="Section-9-Containers-And-Streams-Lesson-1-Containers-Task-2-Map-List_test" target="1.8" />
+      <module name="Section-9-Containers-And-Streams-Lesson-1-Containers-Task-3-Zip-Answer_main" target="1.8" />
+      <module name="Section-9-Containers-And-Streams-Lesson-1-Containers-Task-3-Zip-Answer_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

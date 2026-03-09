@@ -1,0 +1,19 @@
+title: Labs_JB_8_ver4
+language: Russian
+summary: 'Цель курса - научить программированию Java «с нуля». Выпускники курса смогут
+  успешно продолжать освоение любой из высокоуровневых технологий семейства Java:
+  от приложений для мобильных устройств до Интернет-приложений и многопользовательских
+  корпоративных систем. Курс ориентирован на практическое применение технологии Javа,
+  и содержит большое число практических заданий.'
+programming_language: Java
+content:
+- Section-1-Intro
+- Section-2-Object-Oriented-Programming
+- Section-3-Types-Operators
+- Section-4-Object-Instantiation
+- Section-5-Control-Flow
+- Section-6-Methods-Constructors-Arrays
+- Section-7-Inheritance-Polymorfism
+- Section-8-Exceptions-IO
+- Section-9-Containers-And-Streams
+mode: Study

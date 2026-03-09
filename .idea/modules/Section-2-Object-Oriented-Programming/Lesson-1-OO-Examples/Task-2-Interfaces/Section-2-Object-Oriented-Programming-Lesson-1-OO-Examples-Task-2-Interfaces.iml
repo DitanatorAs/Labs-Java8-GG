@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Section-2-Object-Oriented-Programming-Lesson-1-OO-Examples-Task-2-Interfaces" external.linked.project.path="$MODULE_DIR$/../../../../../Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-2-Interfaces" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Java_Basics_8" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-2-Interfaces">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-2-Interfaces/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Section-2-Object-Oriented-Programming/Lesson-1-OO-Examples/Task-2-Interfaces/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

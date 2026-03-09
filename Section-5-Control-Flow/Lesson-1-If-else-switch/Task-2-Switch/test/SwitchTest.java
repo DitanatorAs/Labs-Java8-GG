@@ -1,0 +1,34 @@
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class SwitchTest {
+
+    @Test
+    public void dayOfWeek() {
+        assertEquals("Понедельник", new Switch().dayOfWeek(1));
+        assertEquals("Вторник" ,new Switch().dayOfWeek(2));
+        assertEquals("Среда", new Switch().dayOfWeek(3));
+        assertEquals("Четверг", new Switch().dayOfWeek(4));
+        assertEquals("Пятница", new Switch().dayOfWeek(5));
+        assertEquals("Суббота", new Switch().dayOfWeek(6));
+        assertEquals("Воскресенье", new Switch().dayOfWeek(7));
+        assertEquals("Ошибка данных", new Switch().dayOfWeek(-1));
+        assertEquals("Ошибка данных", new Switch().dayOfWeek(0));
+    }
+
+    @Test
+    public void numOfPlanet() {
+        assertEquals(1, new Switch().numOfPlanet("Меркурий"));
+        assertEquals(8 ,new Switch().numOfPlanet("Нептун"));
+        assertEquals(6, new Switch().numOfPlanet("Сатурн"));
+        assertEquals(5, new Switch().numOfPlanet("Юпитер"));
+        assertEquals(3, new Switch().numOfPlanet("Земля"));
+        assertEquals(2, new Switch().numOfPlanet("Венера"));
+        assertEquals(7, new Switch().numOfPlanet("Уран"));
+        assertEquals(4, new Switch().numOfPlanet("Марс"));
+        assertEquals(-1, new Switch().numOfPlanet("Плутон"));
+        assertEquals(-1, new Switch().numOfPlanet("Вулкан"));
+    }
+
+}

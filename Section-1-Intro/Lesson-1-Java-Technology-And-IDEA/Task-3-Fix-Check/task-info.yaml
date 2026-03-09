@@ -1,0 +1,30 @@
+type: edu
+files:
+- name: src/FixArithmetic.java
+  visible: true
+  text: |
+    public class FixArithmetic {
+
+        public long calc(int a, int b, int c) {
+            return a * 2 + 4 * b + c;
+        }
+
+    }
+  learner_created: false
+- name: test/FixArithmeticTest.java
+  visible: false
+  text: |-
+    import org.junit.Test;
+
+    import static org.junit.Assert.*;
+
+    public class FixArithmeticTest {
+
+        @Test
+        public void testCalc() {
+            assertEquals(0, new FixArithmetic().calc(2, -5, 4));
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1
