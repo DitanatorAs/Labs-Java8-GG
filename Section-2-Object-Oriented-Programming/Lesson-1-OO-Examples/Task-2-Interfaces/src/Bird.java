@@ -1,6 +1,8 @@
-public class Bird реализует Flyer {
+public class Bird  {
 
-   методы реализующие интерфейс
+   void fly(){}
+    void land(){}
+    void takeOff(){}
 
     public void eat() {
         System.out.println("bird eats");

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FalconTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-03-10T07:37:24" hostname="QBook" time="0.004">
+  <properties/>
+  <testcase name="takeOff" classname="FalconTest" time="0.003"/>
+  <testcase name="getName" classname="FalconTest" time="0.0"/>
+  <testcase name="eat" classname="FalconTest" time="0.0"/>
+  <testcase name="fly" classname="FalconTest" time="0.0"/>
+  <testcase name="land" classname="FalconTest" time="0.0"/>
+  <system-out><![CDATA[bird takes off
+bird eats
+bird flies
+bird lands
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

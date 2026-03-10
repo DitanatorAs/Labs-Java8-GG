@@ -1,4 +1,7 @@
-public class Falcon расширяет Bird {
+public class Falcon extends Bird {
 
-    переопределенный метод
+    @Override
+    public String getName() {
+        return "Falcon";
+    }
 }

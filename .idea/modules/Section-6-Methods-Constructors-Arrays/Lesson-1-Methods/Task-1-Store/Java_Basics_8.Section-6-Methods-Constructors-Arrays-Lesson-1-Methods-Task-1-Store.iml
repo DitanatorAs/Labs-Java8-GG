@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Section-6-Methods-Constructors-Arrays-Lesson-1-Methods-Task-1-Store" external.linked.project.path="$MODULE_DIR$/../../../../../Section-6-Methods-Constructors-Arrays/Lesson-1-Methods/Task-1-Store" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Java_Basics_8" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Section-6-Methods-Constructors-Arrays/Lesson-1-Methods/Task-1-Store">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Section-6-Methods-Constructors-Arrays/Lesson-1-Methods/Task-1-Store/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Section-6-Methods-Constructors-Arrays/Lesson-1-Methods/Task-1-Store/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

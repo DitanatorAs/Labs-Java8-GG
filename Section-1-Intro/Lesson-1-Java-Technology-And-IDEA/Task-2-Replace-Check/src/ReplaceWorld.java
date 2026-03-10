@@ -1,6 +1,6 @@
 public class ReplaceWorld {
 
     public String replaceWorld() {
-        return TODO;
+        return "Hello, World!";
     }
 }
