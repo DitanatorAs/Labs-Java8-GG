@@ -7,7 +7,7 @@ public class Order {
         this.itemPrice = itemPrice;
     }
 
-    public возвращаемый_тип getValue(){
-        return itemQuantity * itemPrice;
+    public long getValue(){
+        return (long)itemQuantity * (long)itemPrice;
     };
 }

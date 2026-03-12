@@ -22,11 +22,11 @@ public class Person {
     }
 
     public long getSeconds() {
-        return years * 365 * 24 * 60 * 60;
+        return years * 365 * 24 * 60 * 60L;
     }
 
     public long getMilliSeconds() {
-        return years * 365 * 24 * 60 * 60 * 1000;
+        return years * 365 * 24 * 60 * 60L * 1000;
     }
 
 }

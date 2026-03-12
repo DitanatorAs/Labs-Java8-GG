@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PersonTest100" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-03-12T13:26:24" hostname="CitrusRo3e" time="0.001">
+  <properties/>
+  <testcase name="getSeconds" classname="PersonTest100" time="0.0"/>
+  <testcase name="getMilliSeconds" classname="PersonTest100" time="0.001"/>
+  <testcase name="getDays" classname="PersonTest100" time="0.0"/>
+  <testcase name="getMinuts" classname="PersonTest100" time="0.0"/>
+  <testcase name="getHours" classname="PersonTest100" time="0.0"/>
+  <testcase name="getYears" classname="PersonTest100" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
