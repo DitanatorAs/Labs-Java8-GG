@@ -1,67 +1,70 @@
 type: edu
 files:
-- name: src/Customer.java
-  visible: true
-  text: |
-    public class Customer {
-        int id;
-        String name;
-        String address;
-        String phone;
-        String email;
-
-        public int getId() {
-            return id;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public String getAddress() {
-            return address;
-        }
-
-        public String getPhone() {
-            return phone;
-        }
-
-        public String getEmail() {
-            return email;
-        }
-    }
-  learner_created: false
-- name: test/CustomerTest.java
-  visible: false
-  text: |-
-    import org.junit.Test;
-
-    import static org.junit.Assert.*;
-
-    public class CustomerTest {
-
-        @Test
-        public void setInfo() {
-            Customer customer = new Customer();
-            customer.setInfo(1, "name", "address", "1-2-3");
-            assertEquals(1, customer.getId());
-            assertEquals("name", customer.getName());
-            assertEquals("address", customer.getAddress());
-            assertEquals("1-2-3", customer.getPhone());
-            assertNull(customer.getEmail());
-        }
-
-        @Test
-        public void setInfo2() {
-            Customer customer = new Customer();
-            customer.setInfo(1, "name", "address", "1-2-3", "e@mail");
-            assertEquals(1, customer.getId());
-            assertEquals("name", customer.getName());
-            assertEquals("address", customer.getAddress());
-            assertEquals("1-2-3", customer.getPhone());
-            assertEquals("e@mail", customer.getEmail());
-        }
-    }
-  learner_created: false
-status: Unchecked
+  - name: src/Customer.java
+    visible: true
+    text: |
+      public class Customer {
+          int id;
+          String name;
+          String address;
+          String phone;
+          String email;
+      
+          public int getId() {
+              return id;
+          }
+      
+          public String getName() {
+              return name;
+          }
+      
+          public String getAddress() {
+              return address;
+          }
+      
+          public String getPhone() {
+              return phone;
+          }
+      
+          public String getEmail() {
+              return email;
+          }
+      }
+    learner_created: false
+  - name: test/CustomerTest.java
+    visible: false
+    text: |-
+      import org.junit.Test;
+      
+      import static org.junit.Assert.*;
+      
+      public class CustomerTest {
+      
+          @Test
+          public void setInfo() {
+              Customer customer = new Customer();
+              customer.setInfo(1, "name", "address", "1-2-3");
+              assertEquals(1, customer.getId());
+              assertEquals("name", customer.getName());
+              assertEquals("address", customer.getAddress());
+              assertEquals("1-2-3", customer.getPhone());
+              assertNull(customer.getEmail());
+          }
+      
+          @Test
+          public void setInfo2() {
+              Customer customer = new Customer();
+              customer.setInfo(1, "name", "address", "1-2-3", "e@mail");
+              assertEquals(1, customer.getId());
+              assertEquals("name", customer.getName());
+              assertEquals("address", customer.getAddress());
+              assertEquals("1-2-3", customer.getPhone());
+              assertEquals("e@mail", customer.getEmail());
+          }
+      }
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 13 Mar 2026 12:52:32 UTC"
 record: -1

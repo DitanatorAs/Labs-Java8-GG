@@ -1,67 +1,70 @@
 type: edu
 files:
-- name: src/ShirtOrder.java
-  visible: true
-  text: |
-    public class ShirtOrder {
-
-
-        public ShirtOrder(int shirtQuantity) {
-            //TODO требует реализации
-        }
-
-        public int getShirtQuantity() {
-            //TODO требует реализации
-            return 0;
-        }
-
-        public Shirt getShirt(float price) {
-            //TODO требует реализации
-            return null;
-        }
-    }
-  learner_created: false
-- name: test/ShirtOrderTest.java
-  visible: false
-  text: |-
-    import org.junit.Test;
-
-    import static org.junit.Assert.*;
-
-    public class ShirtOrderTest {
-
-        @Test
-        public void getShirt() {
-
-            int shirtQuantity = 50;
-            ShirtOrder shirtOrder = new ShirtOrder(shirtQuantity);
-            assertEquals(shirtQuantity, shirtOrder.getShirtQuantity());
-
-            for (int i = 1; i <= shirtQuantity; i++) {
-                assertNotNull(shirtOrder.getShirt(i));
-                assertEquals(shirtQuantity - i, shirtOrder.getShirtQuantity());
-            }
-
-            assertNull(shirtOrder.getShirt(10));
-            assertEquals(0, shirtOrder.getShirtQuantity());
-
-        }
-    }
-  learner_created: false
-- name: src/Shirt.java
-  visible: true
-  text: |
-    public class Shirt {
-       private float price;
-
-        public Shirt(float price) {
-            this.price = price;
-        }
-
-        public float getPrice() {
-            return price;
-        }
-    }
-  learner_created: false
-status: Unchecked
+  - name: src/ShirtOrder.java
+    visible: true
+    text: |
+      public class ShirtOrder {
+      
+      
+          public ShirtOrder(int shirtQuantity) {
+              //TODO требует реализации
+          }
+      
+          public int getShirtQuantity() {
+              //TODO требует реализации
+              return 0;
+          }
+      
+          public Shirt getShirt(float price) {
+              //TODO требует реализации
+              return null;
+          }
+      }
+    learner_created: false
+  - name: test/ShirtOrderTest.java
+    visible: false
+    text: |-
+      import org.junit.Test;
+      
+      import static org.junit.Assert.*;
+      
+      public class ShirtOrderTest {
+      
+          @Test
+          public void getShirt() {
+      
+              int shirtQuantity = 50;
+              ShirtOrder shirtOrder = new ShirtOrder(shirtQuantity);
+              assertEquals(shirtQuantity, shirtOrder.getShirtQuantity());
+      
+              for (int i = 1; i <= shirtQuantity; i++) {
+                  assertNotNull(shirtOrder.getShirt(i));
+                  assertEquals(shirtQuantity - i, shirtOrder.getShirtQuantity());
+              }
+      
+              assertNull(shirtOrder.getShirt(10));
+              assertEquals(0, shirtOrder.getShirtQuantity());
+      
+          }
+      }
+    learner_created: false
+  - name: src/Shirt.java
+    visible: true
+    text: |
+      public class Shirt {
+         private float price;
+      
+          public Shirt(float price) {
+              this.price = price;
+          }
+      
+          public float getPrice() {
+              return price;
+          }
+      }
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 13 Mar 2026 12:47:43 UTC"
 record: -1

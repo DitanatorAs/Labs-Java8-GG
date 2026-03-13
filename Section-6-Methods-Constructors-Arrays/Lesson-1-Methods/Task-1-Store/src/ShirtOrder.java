@@ -1,17 +1,18 @@
 public class ShirtOrder {
-
-
+    private int shirtQuantity;
     public ShirtOrder(int shirtQuantity) {
-        //TODO требует реализации
+        this.shirtQuantity = shirtQuantity;
     }
 
     public int getShirtQuantity() {
-        //TODO требует реализации
-        return 0;
+        return shirtQuantity;
     }
 
     public Shirt getShirt(float price) {
-        //TODO требует реализации
-        return null;
+        if(shirtQuantity !=0){
+            shirtQuantity--;
+            return new Shirt(price);
+        }
+        else {return null;}
     }
 }
