@@ -1,34 +1,37 @@
 type: edu
 files:
-- name: src/If.java
-  visible: true
-  text: |
-    public class If {
-        public String dayOfWeek(int day) {
-            return null;
-        }
-    }
-  learner_created: false
-- name: test/IfTest.java
-  visible: false
-  text: |-
-    import org.junit.Test;
-
-    import static org.junit.Assert.*;
-
-    public class IfTest {
-
-        @Test
-        public void dayOfWeek() {
-            assertEquals("Понедельник", new If().dayOfWeek(1));
-            assertEquals("Вторник" ,new If().dayOfWeek(2));
-            assertEquals("Среда", new If().dayOfWeek(3));
-            assertEquals("Четверг", new If().dayOfWeek(4));
-            assertEquals("Пятница", new If().dayOfWeek(5));
-            assertEquals("Суббота", new If().dayOfWeek(6));
-            assertEquals("Воскресенье", new If().dayOfWeek(7));
-        }
-    }
-  learner_created: false
-status: Unchecked
+  - name: src/If.java
+    visible: true
+    text: |
+      public class If {
+          public String dayOfWeek(int day) {
+              return null;
+          }
+      }
+    learner_created: false
+  - name: test/IfTest.java
+    visible: false
+    text: |-
+      import org.junit.Test;
+      
+      import static org.junit.Assert.*;
+      
+      public class IfTest {
+      
+          @Test
+          public void dayOfWeek() {
+              assertEquals("Понедельник", new If().dayOfWeek(1));
+              assertEquals("Вторник" ,new If().dayOfWeek(2));
+              assertEquals("Среда", new If().dayOfWeek(3));
+              assertEquals("Четверг", new If().dayOfWeek(4));
+              assertEquals("Пятница", new If().dayOfWeek(5));
+              assertEquals("Суббота", new If().dayOfWeek(6));
+              assertEquals("Воскресенье", new If().dayOfWeek(7));
+          }
+      }
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 13 Mar 2026 06:25:34 UTC"
 record: -1
