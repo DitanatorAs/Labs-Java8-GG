@@ -2,22 +2,44 @@ public class ClassMap {
     String[][] desks;
 
     public ClassMap(int rows, int columns) {
-        //TODO инициализация массива desks
+        desks = new String[rows][columns];
     }
 
     public String setDesk(String name) {
-        //TODO требуется реализация
-        return "свободное место не найдено";
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < desks.length; i++){
+            for(int j = 0; j < desks[i].length; j++){
+                if(desks[i][j] == null){
+                    desks[i][j] = name;
+                    sb.append(i).append("_").append(j);
+                    return sb.toString();
+                }
+            }
+        }
+        throw new ClassMapException("свободное место не найдено");
     }
 
     public String setDesk(String name, int row, int col) {
-        //TODO требуется реализация
-        return "место занято";
+        StringBuilder sb = new StringBuilder();
+        if (desks[row][col] == null) {
+            desks[row][col] = name;
+            sb.append(row).append("_").append(col);
+            return sb.toString();
+        }
+        throw new ClassMapException("место занято");
     }
 
     public String searchDesk(String name) {
-        //TODO требуется реализация
-        return "ученик не найден";
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < desks.length; i++){
+            for(int j = 0; j < desks[i].length; j++){
+                if(desks[i][j] == name){
+                    sb.append(i).append("_").append(j);
+                    return sb.toString();
+                }
+            }
+        }
+        throw new ClassMapException("ученик не найден");
     }
 
     public String[][] getDesks() {

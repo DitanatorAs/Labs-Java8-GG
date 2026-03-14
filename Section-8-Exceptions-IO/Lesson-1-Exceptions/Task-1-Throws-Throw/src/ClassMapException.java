@@ -1,5 +1,5 @@
- class ClassMapException extends тип_исключения {
-        public ClassMapException(String msg) {
-            super(msg);
-        }
+class ClassMapException extends RuntimeException {
+    public ClassMapException(String msg) {
+        super(msg);
+    }
 }
