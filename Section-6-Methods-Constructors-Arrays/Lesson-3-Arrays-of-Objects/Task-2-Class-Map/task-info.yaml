@@ -1,58 +1,61 @@
 type: edu
 files:
-- name: src/ClassMap.java
-  visible: true
-  text: |
-    public class ClassMap {
-        String[][] desks;
-
-        public ClassMap(int rows, int columns) {
-            //TODO инициализация массива desks
-        }
-
-        public String setDesk(String name) {
-            //TODO требуется реализация
-            return "свободное место не найдено";
-        }
-
-        public String setDesk(String name, int row, int col) {
-            //TODO требуется реализация
-            return "место занято";
-        }
-
-        public String searchDesk(String name) {
-            //TODO требуется реализация
-            return "ученик не найден";
-        }
-
-        public String[][] getDesks() {
-            return desks;
-        }
-    }
-  learner_created: false
-- name: test/ClassMapTest.java
-  visible: false
-  text: |-
-    import org.junit.Test;
-
-    import static org.junit.Assert.*;
-
-    public class ClassMapTest {
-
-        @Test
-        public void setDesk() {
-            ClassMap clazz = new ClassMap(3, 4);
-            assertNotNull(clazz.getDesks());
-            assertEquals("0_0", clazz.setDesk("Vasia"));
-            assertEquals("0_0", clazz.searchDesk("Vasia"));
-
-            assertEquals("2_3", clazz.setDesk("Petia", 2, 3));
-            assertEquals("место занято", clazz.setDesk("Sasha", 2, 3));
-            assertEquals("0_1", clazz.setDesk("Sasha"));
-            assertEquals("0_1", clazz.searchDesk("Sasha"));
-            assertEquals("ученик не найден", clazz.searchDesk("Pet"));
-        }
-    }
-  learner_created: false
-status: Unchecked
+  - name: src/ClassMap.java
+    visible: true
+    text: |
+      public class ClassMap {
+          String[][] desks;
+      
+          public ClassMap(int rows, int columns) {
+              //TODO инициализация массива desks
+          }
+      
+          public String setDesk(String name) {
+              //TODO требуется реализация
+              return "свободное место не найдено";
+          }
+      
+          public String setDesk(String name, int row, int col) {
+              //TODO требуется реализация
+              return "место занято";
+          }
+      
+          public String searchDesk(String name) {
+              //TODO требуется реализация
+              return "ученик не найден";
+          }
+      
+          public String[][] getDesks() {
+              return desks;
+          }
+      }
+    learner_created: false
+  - name: test/ClassMapTest.java
+    visible: false
+    text: |-
+      import org.junit.Test;
+      
+      import static org.junit.Assert.*;
+      
+      public class ClassMapTest {
+      
+          @Test
+          public void setDesk() {
+              ClassMap clazz = new ClassMap(3, 4);
+              assertNotNull(clazz.getDesks());
+              assertEquals("0_0", clazz.setDesk("Vasia"));
+              assertEquals("0_0", clazz.searchDesk("Vasia"));
+      
+              assertEquals("2_3", clazz.setDesk("Petia", 2, 3));
+              assertEquals("место занято", clazz.setDesk("Sasha", 2, 3));
+              assertEquals("0_1", clazz.setDesk("Sasha"));
+              assertEquals("0_1", clazz.searchDesk("Sasha"));
+              assertEquals("ученик не найден", clazz.searchDesk("Pet"));
+          }
+      }
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 14 Mar 2026 02:57:06 UTC"
 record: -1

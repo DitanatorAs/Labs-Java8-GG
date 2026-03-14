@@ -1,38 +1,56 @@
 type: edu
 files:
-- name: src/Vet.java
-  visible: true
-  text: |
-    public class Vet {
-        int testAnimals(Animal[] animals) {
-            //TODO требует реализации
-            return 0;
-        }
-    }
-  learner_created: false
-- name: test/VetTest.java
-  visible: false
-  text: |-
-    import org.junit.Test;
-
-    import static org.junit.Assert.*;
-
-    public class VetTest {
-
-        @Test
-        public void testAnimals() {
-            assertEquals(1, new Vet().testAnimals(
-                    new Animal[]{
-                            new Cat(), new Spider(), new Spider()
-                    }));
-
-            assertEquals(0, new Vet().testAnimals(new Animal[]{new Spider(), new Spider()}));
-            assertEquals(1 ,new Vet().testAnimals(new Animal[]{new Spider(), new Spider(), new Fish()}));
-            assertEquals(3, new Vet().testAnimals(new Animal[]{new Cat(), new Cat(), new Fish()}));
-            assertEquals(2, new Vet().testAnimals(new Animal[]{new Cat(), new Spider(), new Fish()}));
-            assertEquals(0, new Vet().testAnimals(new Animal[]{}));
-        }
-    }
-  learner_created: false
-status: Unchecked
+  - name: src/Vet.java
+    visible: true
+    text: |
+      public class Vet {
+          int testAnimals(Animal[] animals) {
+              //TODO требует реализации
+              return 0;
+          }
+      }
+    learner_created: false
+  - name: test/VetTest.java
+    visible: false
+    text: |-
+      import org.junit.Test;
+      
+      import static org.junit.Assert.*;
+      
+      public class VetTest {
+      
+          @Test
+          public void testAnimals() {
+              assertEquals(1, new Vet().testAnimals(
+                      new Animal[]{
+                              new Cat(), new Spider(), new Spider()
+                      }));
+      
+              assertEquals(0, new Vet().testAnimals(new Animal[]{new Spider(), new Spider()}));
+              assertEquals(1 ,new Vet().testAnimals(new Animal[]{new Spider(), new Spider(), new Fish()}));
+              assertEquals(3, new Vet().testAnimals(new Animal[]{new Cat(), new Cat(), new Fish()}));
+              assertEquals(2, new Vet().testAnimals(new Animal[]{new Cat(), new Spider(), new Fish()}));
+              assertEquals(0, new Vet().testAnimals(new Animal[]{}));
+          }
+      }
+    learner_created: false
+  - name: src/Fish.java
+    visible: true
+    learner_created: true
+  - name: src/Animal.java
+    visible: true
+    learner_created: true
+  - name: src/Cat.java
+    visible: true
+    learner_created: true
+  - name: src/Spider.java
+    visible: true
+    learner_created: true
+  - name: src/Pet.java
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 14 Mar 2026 03:19:31 UTC"
 record: -1
