@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BirdTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-03-10T07:30:11" hostname="QBook" time="0.007">
+<testsuite name="BirdTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-03-24T07:39:38" hostname="QBook" time="0.004">
   <properties/>
-  <testcase name="takeOff" classname="BirdTest" time="0.001"/>
+  <testcase name="takeOff" classname="BirdTest" time="0.003"/>
   <testcase name="getName" classname="BirdTest" time="0.0"/>
-  <testcase name="eat" classname="BirdTest" time="0.005"/>
+  <testcase name="eat" classname="BirdTest" time="0.001"/>
   <testcase name="fly" classname="BirdTest" time="0.0"/>
   <testcase name="land" classname="BirdTest" time="0.0"/>
-  <system-out><![CDATA[bird eats
+  <system-out><![CDATA[methodTakeOff
+bird eats
+methodFly
+methodLand
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
