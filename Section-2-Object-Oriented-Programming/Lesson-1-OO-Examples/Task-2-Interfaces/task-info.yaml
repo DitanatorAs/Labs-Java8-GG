@@ -13,7 +13,7 @@ files:
     visible: true
     placeholders:
       - offset: 18
-        length: 0
+        length: 16
         placeholder_text: реализует
         initial_state:
           length: 9
@@ -22,8 +22,8 @@ files:
         selected: true
         status: Solved
         encrypted_possible_answer: implements
-      - offset: 25
-        length: 51
+      - offset: 62
+        length: 236
         placeholder_text: методы реализующие интерфейс
         initial_state:
           length: 28
@@ -101,5 +101,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 10 Mar 2026 07:30:11 UTC"
+  time: "Tue, 24 Mar 2026 07:39:38 UTC"
 record: -1
